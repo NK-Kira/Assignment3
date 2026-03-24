@@ -25,5 +25,5 @@ vp_tree = Tree('VP', [tags[1], tags[2], tags[3], tags[4], tags[5]])
 # Combination of branches into one main tree
 sentence_tree = Tree('You should replace the blinds immediately.', [np_tree, vp_tree])
 
-# Output
+# Output of the tree
 sentence_tree.draw()
